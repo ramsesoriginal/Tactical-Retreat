@@ -1,0 +1,274 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: IslandDemoAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 983d17c1d441e7143bebbe304c0e50f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  texture: {fileID: 2800000, guid: b96ae14a5fa164cbda52e52ab1694f94, type: 3}
+  elementNumber: 9
+  editElements: 0
+  elementsList:
+  - name: Caustic_Spot_05
+    UV:
+      serializedVersion: 2
+      x: .759765625
+      y: .622558594
+      width: .185058594
+      height: .186035156
+    Imported: 1
+  - name: Caustic_Spot_06
+    UV:
+      serializedVersion: 2
+      x: .759765625
+      y: .811035156
+      width: .205566406
+      height: .186523438
+    Imported: 1
+  - name: Glint_01
+    UV:
+      serializedVersion: 2
+      x: .507324219
+      y: .242675781
+      width: .25
+      height: .25
+    Imported: 1
+  - name: Glint_09
+    UV:
+      serializedVersion: 2
+      x: .507324219
+      y: .495117188
+      width: .25
+      height: .25
+    Imported: 1
+  - name: Glint_10
+    UV:
+      serializedVersion: 2
+      x: .507324219
+      y: .747558594
+      width: .25
+      height: .25
+    Imported: 1
+  - name: Glow_Chroma
+    UV:
+      serializedVersion: 2
+      x: .254882812
+      y: .129882812
+      width: .25
+      height: .25
+    Imported: 1
+  - name: Glow_LargeFalloff
+    UV:
+      serializedVersion: 2
+      x: .254882812
+      y: .382324219
+      width: .25
+      height: .25
+    Imported: 1
+  - name: Glow_NoneUniform_02
+    UV:
+      serializedVersion: 2
+      x: .254882812
+      y: .634765625
+      width: .25
+      height: .25
+    Imported: 1
+  - name: Iris_Hexagon_Chroma
+    UV:
+      serializedVersion: 2
+      x: .00244140625
+      y: .129882812
+      width: .25
+      height: .25
+    Imported: 1
+  - name: Iris_Hexagon_Soft
+    UV:
+      serializedVersion: 2
+      x: .759765625
+      y: .23046875
+      width: .125
+      height: .125
+    Imported: 1
+  - name: Iris_Hexagon_SuperSoft
+    UV:
+      serializedVersion: 2
+      x: .759765625
+      y: .357910156
+      width: .125
+      height: .125
+    Imported: 1
+  - name: Iris_Pentagon_Chroma
+    UV:
+      serializedVersion: 2
+      x: .00244140625
+      y: .382324219
+      width: .25
+      height: .25
+    Imported: 1
+  - name: Iris_Pentagon_Soft
+    UV:
+      serializedVersion: 2
+      x: .384765625
+      y: .00244140625
+      width: .125
+      height: .125
+    Imported: 1
+  - name: Iris_Pentagon_SuperSoft
+    UV:
+      serializedVersion: 2
+      x: .257324219
+      y: .00244140625
+      width: .125
+      height: .125
+    Imported: 1
+  - name: Misc_Square_Soft
+    UV:
+      serializedVersion: 2
+      x: .129882812
+      y: .00244140625
+      width: .125
+      height: .125
+    Imported: 1
+  - name: Misc_Square_SoftSuper
+    UV:
+      serializedVersion: 2
+      x: .00244140625
+      y: .00244140625
+      width: .125
+      height: .125
+    Imported: 1
+  - name: Shimmer_Long_Chroma_02
+    UV:
+      serializedVersion: 2
+      x: .00244140625
+      y: .634765625
+      width: .25
+      height: .25
+    Imported: 1
+  - name: Spectrum_Long
+    UV:
+      serializedVersion: 2
+      x: .512207031
+      y: .122070312
+      width: .213867188
+      height: .03515625
+    Imported: 1
+  - name: Spectrum_Point_01
+    UV:
+      serializedVersion: 2
+      x: .759765625
+      y: .485351562
+      width: .152832031
+      height: .134765625
+    Imported: 1
+  - name: Spectrum_Thick_wide
+    UV:
+      serializedVersion: 2
+      x: .915039062
+      y: .43359375
+      width: .0825195312
+      height: .186523438
+    Imported: 1
+  - name: Steak_SuperSoftEnds
+    UV:
+      serializedVersion: 2
+      x: .507324219
+      y: .177734375
+      width: .25
+      height: .0625
+    Imported: 1
+  - name: Streak_LongBlue
+    UV:
+      serializedVersion: 2
+      x: .507324219
+      y: .159667969
+      width: .25
+      height: .015625
+    Imported: 1
+  - name: Streak_LongWhite
+    UV:
+      serializedVersion: 2
+      x: .759765625
+      y: .212402344
+      width: .125
+      height: .015625
+    Imported: 1
+  - name: Streak_Orange
+    UV:
+      serializedVersion: 2
+      x: .00244140625
+      y: .887207031
+      width: .391601562
+      height: .110351562
+    Imported: 1
+  elementNameList:
+  - Caustic_Spot_05
+  - Caustic_Spot_06
+  - Glint_01
+  - Glint_09
+  - Glint_10
+  - Glow_Chroma
+  - Glow_LargeFalloff
+  - Glow_NoneUniform_02
+  - Iris_Hexagon_Chroma
+  - Iris_Hexagon_Soft
+  - Iris_Hexagon_SuperSoft
+  - Iris_Pentagon_Chroma
+  - Iris_Pentagon_Soft
+  - Iris_Pentagon_SuperSoft
+  - Misc_Square_Soft
+  - Misc_Square_SoftSuper
+  - Shimmer_Long_Chroma_02
+  - Spectrum_Long
+  - Spectrum_Point_01
+  - Spectrum_Thick_wide
+  - Steak_SuperSoftEnds
+  - Streak_LongBlue
+  - Streak_LongWhite
+  - Streak_Orange
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
