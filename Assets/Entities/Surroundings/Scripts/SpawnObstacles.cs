@@ -10,8 +10,18 @@ public class SpawnObstacles : MonoBehaviour {
 
 	private static int passedObstacles;
 
-	static SpawnObstacles() {
+	static public int PassedObstacles {
+		get {
+			return passedObstacles;
+		}
+	}
+
+	static public void ResetObstacles(){
 		passedObstacles = 0;
+	}
+
+	static SpawnObstacles() {
+		ResetObstacles ();
 	}
 
 	// Use this for initialization

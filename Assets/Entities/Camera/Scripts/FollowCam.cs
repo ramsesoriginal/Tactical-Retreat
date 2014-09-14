@@ -5,6 +5,7 @@ namespace CustomCamera {
 	public class FollowCam : MonoBehaviour {
 
 		public GameObject player;
+		public float advance;
 
 		// Use this for initialization
 		void Start () {
@@ -13,7 +14,7 @@ namespace CustomCamera {
 		
 		// Update is called once per frame
 		void Update () {
-			transform.position = new Vector3 (player.transform.position.x, transform.position.y, transform.position.z );
+			transform.position = new Vector3 (player.transform.position.x + advance, transform.position.y, transform.position.z );
 		}
 	}
 
